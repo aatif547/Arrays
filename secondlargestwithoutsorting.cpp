@@ -17,13 +17,19 @@ void secondlargest(int arr[],int n)
             secondlargest=arr[i];
         }
     }
-    cout<<"Second Largest Element"<<secondlargest<<endl;
-    cout<<"LArgest element"<<max;
+    if(secondlargest==max)
+    {
+        cout<<"no second largest";
+    }
+    else
+    cout<<"Second Largest Element"<<secondlargest<<"largest"<<max;
+    
+    
 
 }
 int main()
 {
-    int arr[]={1,34,564,245,64,45,2};
+    int arr[]={2,2,2,2,2,2};
     int n=sizeof(arr)/sizeof(arr[0]);
     secondlargest(arr,n);
 }
