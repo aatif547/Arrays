@@ -4,12 +4,13 @@ bool sortedarray(int arr[],int n)
 {
     for(int i=0;i<n;i++)
     {
-        if(arr[i]<arr[i+1]) ///1,2,3,
+        if(arr[i]>arr[i+1]) ///1,2,3,
         {
-            return true;
+            return false;
         }
-       return false;
+      
     }
+    return true;
 
 }
 int main()
