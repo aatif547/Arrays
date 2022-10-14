@@ -15,5 +15,5 @@ int main()
     int missing=0;
     missing=(nat-sum);
     cout<<"Missing number "<<missing;
-
+    
 }
